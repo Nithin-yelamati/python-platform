@@ -1,4502 +1,1136 @@
 [
-    {
-        "qid": "Q0001",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0002",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0003",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0004",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0005",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0006",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0007",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0008",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0009",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0010",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0011",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0012",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0013",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0014",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0015",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0016",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0017",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0018",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0019",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0020",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0021",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0022",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0023",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0024",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0025",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0026",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0027",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0028",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0029",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0030",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0031",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0032",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0033",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0034",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0035",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0036",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0037",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0038",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0039",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0040",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0041",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0042",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0043",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0044",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0045",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0046",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0047",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0048",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0049",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0050",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0051",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0052",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0053",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0054",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0055",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0056",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0057",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0058",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0059",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0060",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0061",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0062",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0063",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0064",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0065",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0066",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0067",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0068",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0069",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0070",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0071",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0072",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0073",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0074",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0075",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0076",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0077",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0078",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0079",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0080",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0081",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0082",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0083",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0084",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0085",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0086",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0087",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0088",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0089",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0090",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0091",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0092",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0093",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0094",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0095",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0096",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0097",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0098",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0099",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0100",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0101",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0102",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0103",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0104",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0105",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0106",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0107",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0108",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0109",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0110",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0111",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0112",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0113",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0114",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0115",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0116",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0117",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0118",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0119",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0120",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0121",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0122",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0123",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0124",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0125",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0126",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0127",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0128",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0129",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0130",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0131",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0132",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0133",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0134",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0135",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0136",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0137",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0138",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0139",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0140",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0141",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0142",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0143",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0144",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0145",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0146",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0147",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0148",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0149",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0150",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0151",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0152",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0153",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0154",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0155",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0156",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0157",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0158",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0159",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0160",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0161",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0162",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0163",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0164",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0165",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0166",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0167",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0168",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0169",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0170",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0171",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0172",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0173",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0174",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0175",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0176",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0177",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0178",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0179",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0180",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0181",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0182",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0183",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0184",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0185",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0186",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0187",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0188",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0189",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0190",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0191",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0192",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0193",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0194",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0195",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0196",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0197",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0198",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0199",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0200",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0201",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0202",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0203",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0204",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0205",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0206",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0207",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0208",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0209",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0210",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0211",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0212",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0213",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0214",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0215",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0216",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0217",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0218",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0219",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0220",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0221",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0222",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0223",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0224",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0225",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0226",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0227",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0228",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0229",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0230",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0231",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0232",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0233",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0234",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0235",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0236",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0237",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0238",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0239",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0240",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0241",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0242",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0243",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0244",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0245",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0246",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0247",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0248",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0249",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0250",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0251",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0252",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0253",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0254",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0255",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0256",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0257",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0258",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0259",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0260",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0261",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0262",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0263",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0264",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0265",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0266",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0267",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0268",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0269",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0270",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0271",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0272",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0273",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0274",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0275",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0276",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0277",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0278",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0279",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0280",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0281",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0282",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0283",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0284",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0285",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0286",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0287",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0288",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0289",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0290",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0291",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0292",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0293",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0294",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0295",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0296",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0297",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0298",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0299",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0300",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0301",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0302",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0303",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0304",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0305",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0306",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0307",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0308",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0309",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0310",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0311",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0312",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0313",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0314",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0315",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0316",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0317",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0318",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0319",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0320",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0321",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0322",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0323",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0324",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0325",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0326",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0327",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0328",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0329",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0330",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0331",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0332",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0333",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0334",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0335",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0336",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0337",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0338",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0339",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0340",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0341",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0342",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0343",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0344",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0345",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0346",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0347",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0348",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0349",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0350",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0351",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0352",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0353",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0354",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0355",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0356",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0357",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0358",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0359",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0360",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0361",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0362",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0363",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0364",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0365",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0366",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0367",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0368",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0369",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0370",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0371",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0372",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0373",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0374",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0375",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0376",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0377",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0378",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0379",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0380",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0381",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0382",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0383",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0384",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0385",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0386",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0387",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0388",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0389",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0390",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0391",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0392",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0393",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0394",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0395",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0396",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0397",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0398",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0399",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0400",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0401",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0402",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0403",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0404",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0405",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0406",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0407",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0408",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0409",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0410",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0411",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0412",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0413",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0414",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0415",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0416",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0417",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0418",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0419",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0420",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0421",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0422",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0423",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0424",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0425",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0426",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0427",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0428",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0429",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0430",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0431",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0432",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0433",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0434",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0435",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0436",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0437",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0438",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0439",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0440",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0441",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0442",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0443",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0444",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0445",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0446",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0447",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0448",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0449",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0450",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0451",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0452",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0453",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0454",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0455",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0456",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0457",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0458",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0459",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0460",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0461",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0462",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0463",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0464",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0465",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0466",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0467",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0468",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0469",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0470",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0471",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0472",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0473",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0474",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0475",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0476",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Reverse a String",
-        "description": "Write a complete Python program that reads a string from the user, reverses it, and prints the reversed string.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0477",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Count Vowels",
-        "description": "Write a complete Python program that reads a string and counts the number of vowels, then prints the count.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0478",
-        "topic": "Strings",
-        "difficulty": "Medium",
-        "title": "Palindrome Check",
-        "description": "Write a complete Python program that reads a string and checks whether it is a palindrome, then prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0479",
-        "topic": "Strings",
-        "difficulty": "Hard",
-        "title": "Remove Duplicates",
-        "description": "Write a complete Python program that removes duplicate characters from a string and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0480",
-        "topic": "Strings",
-        "difficulty": "Easy",
-        "title": "Longest Word",
-        "description": "Write a complete Python program that reads a sentence and prints the longest word in it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0481",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Sum of List Elements",
-        "description": "Write a complete Python program that reads a list of numbers from the user and prints their sum.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0482",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Find Maximum in List",
-        "description": "Write a complete Python program that reads a list of numbers and prints the maximum number.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0483",
-        "topic": "Lists",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates from List",
-        "description": "Write a complete Python program that removes duplicates from a list and prints the updated list.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0484",
-        "topic": "Lists",
-        "difficulty": "Medium",
-        "title": "Rotate List",
-        "description": "Write a complete Python program that rotates a list to the right by N positions and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0485",
-        "topic": "Lists",
-        "difficulty": "Hard",
-        "title": "Sort List",
-        "description": "Write a complete Python program that reads a list of numbers and prints it sorted in ascending order.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0486",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Count Occurrences",
-        "description": "Write a complete Python program that counts the occurrences of each element in a list and prints the dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0487",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Merge Dictionaries",
-        "description": "Write a complete Python program that merges two dictionaries and prints the merged dictionary.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0488",
-        "topic": "Dictionaries",
-        "difficulty": "Hard",
-        "title": "Invert Dictionary",
-        "description": "Write a complete Python program that inverts a dictionary, swapping keys and values, then prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0489",
-        "topic": "Dictionaries",
-        "difficulty": "Easy",
-        "title": "Key with Max Value",
-        "description": "Write a complete Python program that finds the key with the maximum value in a dictionary and prints it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0490",
-        "topic": "Dictionaries",
-        "difficulty": "Medium",
-        "title": "Filter Dictionary",
-        "description": "Write a complete Python program that filters dictionary items with values greater than a given number and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0491",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Union of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their union.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0492",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Intersection of Sets",
-        "description": "Write a complete Python program that reads two sets and prints their intersection.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0493",
-        "topic": "Sets",
-        "difficulty": "Medium",
-        "title": "Difference of Sets",
-        "description": "Write a complete Python program that reads two sets and prints the difference.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0494",
-        "topic": "Sets",
-        "difficulty": "Hard",
-        "title": "Subset Check",
-        "description": "Write a complete Python program that checks if one set is a subset of another and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0495",
-        "topic": "Sets",
-        "difficulty": "Easy",
-        "title": "Remove Duplicates Using Set",
-        "description": "Write a complete Python program that reads a list, converts it to a set to remove duplicates, and prints the result.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0496",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Creation",
-        "description": "Write a complete Python program to create a tuple with multiple data types and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0497",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Tuple to String",
-        "description": "Write a complete Python program to convert a tuple of characters into a string and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0498",
-        "topic": "Tuples",
-        "difficulty": "Easy",
-        "title": "Access Tuple Elements",
-        "description": "Write a complete Python program to access elements of a tuple and print them.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0499",
-        "topic": "Tuples",
-        "difficulty": "Medium",
-        "title": "Tuple Length",
-        "description": "Write a complete Python program to find and print the length of a tuple.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    },
-    {
-        "qid": "Q0500",
-        "topic": "Tuples",
-        "difficulty": "Hard",
-        "title": "Nested Tuple",
-        "description": "Write a complete Python program to create a nested tuple and print it.",
-        "constraints": "Time: 2s",
-        "solvable": true
-    }
+  {
+    "qid": "Q0001",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "Reverse a String",
+    "description": "Write a Python program that reads a string from user input and returns the reversed string without using built-in reverse functions.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0002",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "Count Vowels",
+    "description": "Write a Python program to count the number of vowels (a, e, i, o, u) in a given string, case-insensitive.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0003",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "Palindrome Check",
+    "description": "Write a Python program to check if a given string is a palindrome (reads the same forwards and backwards), ignoring spaces and case.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0004",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "Remove Duplicate Characters",
+    "description": "Write a Python program to remove duplicate characters from a string while maintaining the original order.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0005",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "String Length",
+    "description": "Write a Python program to find the length of a string without using the len() function.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0006",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "Character Frequency",
+    "description": "Write a Python program to count the frequency of each character in a string.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0007",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "First Non-Repeating Character",
+    "description": "Write a Python program to find the first non-repeating character in a string.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0008",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "String Concatenation",
+    "description": "Write a Python program to concatenate two strings without using the + operator.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0009",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "Check Substring",
+    "description": "Write a Python program to check if one string is a substring of another without using built-in find functions.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0010",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "title": "Replace Spaces",
+    "description": "Write a Python program to replace all spaces in a string with '%20'.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0011",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Anagram Check",
+    "description": "Write a Python program to check if two strings are anagrams of each other (contain the same characters in different orders).",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0012",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Longest Substring Without Repeating",
+    "description": "Find the length of the longest substring without repeating characters in a given string.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0013",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "String Compression",
+    "description": "Implement a method to perform basic string compression using counts of repeated characters.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0014",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Valid Parentheses",
+    "description": "Given a string containing parentheses, determine if the parentheses are valid (properly opened and closed).",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0015",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "String to Integer",
+    "description": "Implement the atoi function which converts a string to an integer, handling edge cases.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0016",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Group Anagrams",
+    "description": "Group anagrams together from a list of strings and return the grouped list.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0017",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Longest Common Prefix",
+    "description": "Find the longest common prefix string amongst an array of strings.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0018",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Reverse Words in String",
+    "description": "Reverse the order of words in a string while maintaining the word order.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0019",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Isomorphic Strings",
+    "description": "Check if two strings are isomorphic (characters can be mapped to each other).",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0020",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "title": "Word Pattern",
+    "description": "Given a pattern and a string, check if the string follows the pattern.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0021",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Longest Palindromic Substring",
+    "description": "Find the longest palindromic substring in a given string.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0022",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*'.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0023",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Minimum Window Substring",
+    "description": "Find the minimum window in a string which contains all characters of another string.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0024",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Edit Distance",
+    "description": "Calculate the minimum number of operations required to convert one string to another.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0025",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Wildcard Matching",
+    "description": "Implement wildcard pattern matching with support for '?' and '*'.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0026",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Distinct Subsequences",
+    "description": "Count the number of distinct subsequences of one string that equal another string.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0027",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Text Justification",
+    "description": "Given an array of words and a width, format the text such that each line has exactly width characters.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0028",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "String Permutations",
+    "description": "Generate all permutations of a given string without duplicates.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0029",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Zigzag Conversion",
+    "description": "Convert a string into a zigzag pattern on a given number of rows.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0030",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "title": "Integer to English Words",
+    "description": "Convert a non-negative integer to its English words representation.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0031",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Find Maximum Element",
+    "description": "Write a Python program to find the maximum element in a list without using built-in max function.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0032",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Second Largest Element",
+    "description": "Find the second largest element in a list of integers.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0033",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Sum of List",
+    "description": "Calculate the sum of all elements in a list without using built-in sum function.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0034",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Remove Duplicates",
+    "description": "Remove duplicates from a list while maintaining the original order.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0035",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Find Missing Number",
+    "description": "Find the missing number in a list containing numbers from 1 to n.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0036",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Merge Sorted Lists",
+    "description": "Merge two sorted lists into one sorted list.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0037",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "List Rotation",
+    "description": "Rotate a list to the left by k positions.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0038",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Find Pair with Sum",
+    "description": "Find a pair of elements in a list that sum to a given target.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0039",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Reverse List",
+    "description": "Reverse a list in-place without using built-in reverse function.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0040",
+    "topic": "Lists",
+    "difficulty": "Easy",
+    "title": "Find Common Elements",
+    "description": "Find common elements between two lists.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0041",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Two Sum",
+    "description": "Given an array of integers, return indices of two numbers that add up to a specific target.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0042",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Three Sum",
+    "description": "Find all unique triplets in the array which gives the sum of zero.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0043",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Product Except Self",
+    "description": "Calculate the product of all elements in the array except the element at each index.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0044",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Maximum Subarray",
+    "description": "Find the contiguous subarray with the largest sum (Kadane's algorithm).",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0045",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Merge Intervals",
+    "description": "Merge all overlapping intervals in a list of intervals.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0046",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Container With Most Water",
+    "description": "Find two lines that together with x-axis form a container with most water.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0047",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Search in Rotated Array",
+    "description": "Search for a target value in a rotated sorted array.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0048",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Find Peak Element",
+    "description": "Find a peak element in an array (element greater than its neighbors).",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0049",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Spiral Matrix",
+    "description": "Return all elements of a matrix in spiral order.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0050",
+    "topic": "Lists",
+    "difficulty": "Medium",
+    "title": "Set Matrix Zeroes",
+    "description": "If an element in a matrix is 0, set its entire row and column to 0.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0051",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Trapping Rain Water",
+    "description": "Compute how much water can be trapped after raining between elevation bars.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0052",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Median of Two Sorted Arrays",
+    "description": "Find the median of two sorted arrays of different sizes.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0053",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Sliding Window Maximum",
+    "description": "Find the maximum element in each sliding window of size k.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0054",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "First Missing Positive",
+    "description": "Find the smallest missing positive integer in an unsorted array.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0055",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "N-Queens",
+    "description": "Place n queens on an n×n chessboard so that no two queens attack each other.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0056",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Sudoku Solver",
+    "description": "Write a program to solve a Sudoku puzzle by filling the empty cells.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0057",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Word Search",
+    "description": "Given a 2D board and a word, find if the word exists in the grid.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0058",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Largest Rectangle in Histogram",
+    "description": "Find the largest rectangular area in a histogram.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0059",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Count Inversions",
+    "description": "Count the number of inversions in an array (using merge sort).",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0060",
+    "topic": "Lists",
+    "difficulty": "Hard",
+    "title": "Maximum Product Subarray",
+    "description": "Find the contiguous subarray within an array that has the largest product.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0061",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Word Frequency",
+    "description": "Count the frequency of each word in a given string using a dictionary.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0062",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Character Count",
+    "description": "Count occurrences of each character in a string using dictionary.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0063",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Two Sum with Dictionary",
+    "description": "Solve Two Sum problem using dictionary for O(n) time complexity.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0064",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Merge Dictionaries",
+    "description": "Merge two dictionaries into one in Python.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0065",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Dictionary Key Check",
+    "description": "Check if a key exists in a dictionary and handle KeyError.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0066",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Sort Dictionary by Value",
+    "description": "Sort a dictionary by its values in ascending or descending order.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0067",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Dictionary Comprehension",
+    "description": "Create a dictionary using dictionary comprehension with specific conditions.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0068",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Nested Dictionary Access",
+    "description": "Safely access and modify values in nested dictionaries.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0069",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Dictionary to JSON",
+    "description": "Convert a Python dictionary to JSON string and vice versa.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0070",
+    "topic": "Dictionaries",
+    "difficulty": "Easy",
+    "title": "Default Dictionary",
+    "description": "Use defaultdict to handle missing keys in dictionaries.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0071",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "LRU Cache",
+    "description": "Design and implement an LRU (Least Recently Used) cache using OrderedDict.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0072",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Group Anagrams with Dict",
+    "description": "Group anagrams using dictionary for efficient grouping.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0073",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Subarray Sum Equals K",
+    "description": "Find the total number of continuous subarrays whose sum equals k using prefix sum.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0074",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Longest Consecutive Sequence",
+    "description": "Find the longest consecutive elements sequence in an unsorted array.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0075",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Top K Frequent Elements",
+    "description": "Find the k most frequent elements in an array using heap and dictionary.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0076",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Valid Sudoku",
+    "description": "Determine if a Sudoku board is valid using dictionary for row, column, and box checks.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0077",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Copy List with Random Pointer",
+    "description": "Deep copy a linked list where each node has a random pointer using dictionary.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0078",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Design HashMap",
+    "description": "Design a HashMap without using any built-in hash table libraries.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0079",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Word Pattern II",
+    "description": "Given a pattern and a string, check if the string follows the pattern using backtracking and dictionary.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0080",
+    "topic": "Dictionaries",
+    "difficulty": "Medium",
+    "title": "Logger Rate Limiter",
+    "description": "Design a logger system that streams messages with timestamp and rate limiting.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0081",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "All O`one Data Structure",
+    "description": "Design a data structure that supports all operations in O(1) time.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0082",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "LFU Cache",
+    "description": "Design and implement a Least Frequently Used (LFU) cache.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0083",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Design Search Autocomplete",
+    "description": "Design a search autocomplete system for a search engine.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0084",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Word Squares",
+    "description": "Given a set of words, find all word squares you can build from them.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0085",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Palindrome Pairs",
+    "description": "Given a list of unique words, find all pairs of distinct indices that form palindromes.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0086",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Max Points on a Line",
+    "description": "Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0087",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Substring with Concatenation",
+    "description": "Find all starting indices of substring(s) that is a concatenation of each word in a given list.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0088",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Minimum Window Substring with Dict",
+    "description": "Solve minimum window substring problem using dictionary for character counting.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0089",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Word Break II",
+    "description": "Given a string and a dictionary, add spaces in the string to construct sentences.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0090",
+    "topic": "Dictionaries",
+    "difficulty": "Hard",
+    "title": "Alien Dictionary",
+    "description": "Given a sorted dictionary of an alien language, find order of characters in the language.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0091",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Factorial",
+    "description": "Calculate factorial of a non-negative integer using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0092",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Fibonacci Sequence",
+    "description": "Generate the nth Fibonacci number using recursion with memoization.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0093",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Sum of Digits",
+    "description": "Calculate the sum of digits of a number using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0094",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Power Calculation",
+    "description": "Calculate x raised to the power n using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0095",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "GCD using Recursion",
+    "description": "Find Greatest Common Divisor of two numbers using Euclidean algorithm and recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0096",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Reverse String Recursively",
+    "description": "Reverse a string using recursion without using loops or built-in functions.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0097",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Palindrome Check Recursive",
+    "description": "Check if a string is palindrome using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0098",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Count Down Recursively",
+    "description": "Print numbers from n to 1 using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0099",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Array Sum Recursive",
+    "description": "Calculate sum of all elements in an array using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0100",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "title": "Binary Search Recursive",
+    "description": "Implement binary search algorithm using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0101",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Tower of Hanoi",
+    "description": "Solve the Tower of Hanoi problem using recursion with n disks.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0102",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Permutations",
+    "description": "Generate all permutations of a given string or array using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0103",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Combinations",
+    "description": "Generate all combinations of k elements from n elements using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0104",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Subsets",
+    "description": "Generate all possible subsets of a set using recursion (power set).",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0105",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Generate Parentheses",
+    "description": "Generate all valid combinations of n pairs of parentheses using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0106",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Letter Combinations of Phone",
+    "description": "Given a string containing digits from 2-9, return all possible letter combinations.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0107",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Combination Sum",
+    "description": "Find all unique combinations in candidates where the candidate numbers sum to target.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0108",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Word Search with Backtracking",
+    "description": "Solve word search problem using recursion and backtracking.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0109",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "Sudoku Solver with Backtracking",
+    "description": "Solve Sudoku puzzle using recursion and backtracking algorithm.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0110",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "title": "N-Queens with Backtracking",
+    "description": "Solve N-Queens problem using recursion and backtracking.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0111",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Regular Expression Matching Recursive",
+    "description": "Solve regular expression matching problem using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0112",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Wildcard Matching Recursive",
+    "description": "Solve wildcard matching problem using recursion with memoization.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0113",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Word Break Recursive",
+    "description": "Determine if a string can be segmented into space-separated sequence of dictionary words.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0114",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Edit Distance Recursive",
+    "description": "Calculate minimum edit distance between two strings using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0115",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Longest Increasing Path",
+    "description": "Find the longest increasing path in a matrix using recursion and memoization.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0116",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Strobogrammatic Number II",
+    "description": "Find all strobogrammatic numbers of length n using recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0117",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Expression Add Operators",
+    "description": "Given a string of digits and target value, add operators to get the target value.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0118",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Remove Invalid Parentheses",
+    "description": "Remove the minimum number of invalid parentheses to make the input string valid.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0119",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Word Squares Backtracking",
+    "description": "Solve word squares problem using backtracking and recursion.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0120",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "title": "Palindrome Partitioning",
+    "description": "Partition a string such that every substring of the partition is a palindrome.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0121",
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "title": "Bubble Sort",
+    "description": "Implement the bubble sort algorithm to sort an array of integers.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0122",
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "title": "Selection Sort",
+    "description": "Implement the selection sort algorithm to sort an array of integers.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0123",
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "title": "Insertion Sort",
+    "description": "Implement the insertion sort algorithm to sort an array of integers.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0124",
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "title": "Merge Sort",
+    "description": "Implement the merge sort algorithm to sort an array of integers.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0125",
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "title": "Quick Sort",
+    "description": "Implement the quick sort algorithm to sort an array of integers.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0126",
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "title": "Heap Sort",
+    "description": "Implement the heap sort algorithm to sort an array of integers.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  }
 ]

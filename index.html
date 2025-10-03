@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Coding Platform</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/codemirror.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/mode/python/python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.24.1/full/pyodide.js"></script>
+  <style>
+    .CodeMirror { border: 1px solid #ddd; height: auto; }
+    pre { white-space: pre-wrap; word-wrap: break-word; }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="mb-4">Python Coding Platform</h1>
+    <div id="questions-container"></div>
+  </div>
+
+  <script>
+    let pyodideReady = false;
+    let questions = [];
+
+    async function loadPyodideAndQuestions() {
+        window.pyodide = await loadPyodide();
+        pyodideReady = true;
+
+        const response = await fetch("questions.json");
+        questions = await response.json();
+
+        renderQuestions();
+    }
+
+    function renderQuestions() {
+        const container = document.getElementById("questions-container");
+        container.innerHTML = "";
+
+        questions.forEach(q => {
+            const card = document.createElement("div");
+            card.className = "card mb-3";
+            card.innerHTML = `
+            <div class="card-body">
+                <h5 class="card-title">${q.qid} - ${q.title}</h5>
+                <p><strong>Topic:</strong> ${q.topic} | <strong>Difficulty:</strong> ${q.difficulty}</p>
+                <p>${q.description}</p>
+                <p><small class="text-muted">${q.constraints}</small></p>
+                <textarea id="code_${q.qid}" rows="10" class="form-control"># Write your complete Python program here\nresult = None</textarea>
+                <button class="btn btn-success mt-2" onclick="runCode('${q.qid}')">Run Code</button>
+                <div id="output_${q.qid}" class="mt-2 alert alert-secondary"><pre id="pre_${q.qid}"></pre></div>
+            </div>`;
+            container.appendChild(card);
+
+            const editor = CodeMirror.fromTextArea(document.getElementById(`code_${q.qid}`), {
+                lineNumbers: true,
+                mode: "python",
+                theme: "default"
+            });
+            window[`editor_${q.qid}`] = editor;
+        });
+    }
+
+    async function runCode(qid) {
+        if (!pyodideReady) { alert("Python environment loading..."); return; }
+
+        const editorInstance = window[`editor_${qid}`];
+        const code = editorInstance.getValue();
+        const outputPre = document.getElementById(`pre_${qid}`);
+        outputPre.textContent = "Running...";
+
+        try {
+            await pyodide.runPythonAsync(`
+import builtins
+output_capture = []
+def print(*args, **kwargs):
+    output_capture.append(" ".join(map(str,args)))
+builtins.print = print
+
+def input(prompt=""):
+    return window.prompt(prompt or "Input:")
+`);
+
+            await pyodide.runPythonAsync(code);
+            const result = await pyodide.runPythonAsync("output_capture");
+            outputPre.textContent = result.join("\n") || "Code executed successfully. No output.";
+        } catch (err) {
+            outputPre.textContent = err.toString();
+        }
+    }
+
+    loadPyodideAndQuestions();
+  </script>
+</body>
+</html>

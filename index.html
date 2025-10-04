@@ -72,13 +72,14 @@
         try {
             await pyodide.runPythonAsync(`
 import builtins
+import js
 output_capture = []
 def print(*args, **kwargs):
     output_capture.append(" ".join(map(str,args)))
 builtins.print = print
 
 def input(prompt=""):
-    return window.prompt(prompt or "Input:")
+    return js.window.prompt(prompt or "Input:")
 `);
 
             await pyodide.runPythonAsync(code);

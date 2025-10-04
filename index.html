@@ -64,9 +64,11 @@
     async function runCode(qid) {
         if (!pyodideReady) { alert("Python environment loading..."); return; }
 
-        const editorInstance = window[`editor_${qid}`];
+        // FIX: Changed 'q' to 'qid' to match the function parameter
+        const editorInstance = window[`editor_${qid}`]; 
         const code = editorInstance.getValue();
-        const outputPre = document.getElementById(`pre_${qid}`);
+        // FIX: Changed 'q' to 'qid' to match the function parameter
+        const outputPre = document.getElementById(`pre_${qid}`); 
         outputPre.textContent = "Running...";
 
         try {
@@ -86,7 +88,10 @@ def input(prompt=""):
             const result = await pyodide.runPythonAsync("output_capture");
             outputPre.textContent = result.join("\n") || "Code executed successfully. No output.";
         } catch (err) {
-            outputPre.textContent = err.toString();
+            const errorString = err.toString();
+            const errorLines = errorString.split('\n');
+            const relevantError = errorLines.slice(-4).join('\n');
+            outputPre.textContent = relevantError;
         }
     }
 

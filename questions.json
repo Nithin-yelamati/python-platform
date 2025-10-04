@@ -1081,55 +1081,181 @@
   },
   {
     "qid": "Q0121",
-    "topic": "Sorting",
+    "topic": "Sorting Algorithms",
     "difficulty": "Easy",
-    "title": "Bubble Sort",
-    "description": "Implement the bubble sort algorithm to sort an array of integers.",
+    "title": "Implement Bubble Sort",
+    "description": "Write a Python function that takes a list of integers as input and sorts it in ascending order using the Bubble Sort algorithm. The function should not use any built-in Python sorting functions like `sort()` or `sorted()`.",
     "constraints": "Time: 2s, Memory: 256MB",
     "solvable": true
   },
   {
     "qid": "Q0122",
-    "topic": "Sorting",
-    "difficulty": "Easy",
-    "title": "Selection Sort",
-    "description": "Implement the selection sort algorithm to sort an array of integers.",
+    "topic": "Searching Algorithms",
+    "difficulty": "Medium",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "description": "Given a sorted array of integers `nums`, find the starting and ending position of a given `target` value. If the target is not found in the array, return `[-1, -1]`. Your algorithm's runtime complexity must be in the order of $O(\\log n)$.",
     "constraints": "Time: 2s, Memory: 256MB",
     "solvable": true
   },
   {
     "qid": "Q0123",
-    "topic": "Sorting",
-    "difficulty": "Easy",
-    "title": "Insertion Sort",
-    "description": "Implement the insertion sort algorithm to sort an array of integers.",
-    "constraints": "Time: 2s, Memory: 256MB",
+    "topic": "File Handling",
+    "difficulty": "Hard",
+    "title": "Analyze a Large Log File",
+    "description": "Write a Python script that reads a large log file (e.g., >1GB) line by line, assuming it cannot fit into memory. The script must efficiently count the occurrences of different log levels (INFO, WARNING, ERROR, DEBUG) and identify the top 10 most frequent IP addresses appearing in the logs. Implement this without loading the entire file at once.",
+    "constraints": "Time: 10s, Memory: 64MB",
     "solvable": true
   },
   {
     "qid": "Q0124",
-    "topic": "Sorting",
-    "difficulty": "Medium",
-    "title": "Merge Sort",
-    "description": "Implement the merge sort algorithm to sort an array of integers.",
+    "topic": "OOP",
+    "difficulty": "Easy",
+    "title": "Create a Basic 'Circle' Class",
+    "description": "Define a Python class named `Circle`. The class should have a constructor that accepts the radius as an argument. Implement two instance methods: `calculate_area()` which returns the area ($πr^2$) and `calculate_circumference()` which returns the circumference ($2πr$).",
     "constraints": "Time: 2s, Memory: 256MB",
     "solvable": true
   },
   {
     "qid": "Q0125",
-    "topic": "Sorting",
+    "topic": "Exception Handling",
     "difficulty": "Medium",
-    "title": "Quick Sort",
-    "description": "Implement the quick sort algorithm to sort an array of integers.",
+    "title": "Custom Exception for Data Validation",
+    "description": "Create a function that processes a list of user dictionaries. Each dictionary contains 'name' and 'age'. The function should validate each user. If a user's age is less than 18, raise a custom `UnderageError`. If the 'age' key is missing or not an integer, raise a `ValueError`. The main script should call this function and gracefully handle these specific exceptions by printing informative error messages.",
     "constraints": "Time: 2s, Memory: 256MB",
     "solvable": true
   },
   {
     "qid": "Q0126",
-    "topic": "Sorting",
+    "topic": "Regular Expressions",
+    "difficulty": "Hard",
+    "title": "HTML Tag Extractor",
+    "description": "Write a Python function that accepts a string containing a snippet of HTML code. Using regular expressions, extract all unique HTML tags (e.g., 'p', 'div', 'a') along with their attributes, if any. The function should return a dictionary where keys are the tag names and values are lists of their corresponding attribute strings.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0127",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "title": "FizzBuzz",
+    "description": "Write a Python program that prints numbers from 1 to a given integer `n`. For multiples of three, print 'Fizz' instead of the number. For multiples of five, print 'Buzz'. For numbers which are multiples of both three and five, print 'FizzBuzz'.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0128",
+    "topic": "Data Structures",
     "difficulty": "Medium",
-    "title": "Heap Sort",
-    "description": "Implement the heap sort algorithm to sort an array of integers.",
+    "title": "Implement a Queue using Two Stacks",
+    "description": "Implement a `MyQueue` class that simulates a queue's behavior (FIFO - First In First Out) using only two stacks. The implemented queue should support `push` (add element to back), `pop` (remove element from front), `peek` (get the front element), and `empty` (check if queue is empty) operations.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0129",
+    "topic": "Math Problems",
+    "difficulty": "Hard",
+    "title": "Integer to Roman",
+    "description": "Write a function to convert an integer to its Roman numeral representation. The input integer is guaranteed to be within the range from 1 to 3999.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0130",
+    "topic": "Dynamic Programming",
+    "difficulty": "Easy",
+    "title": "Climbing Stairs",
+    "description": "You are climbing a staircase. It takes `n` steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? Solve this using dynamic programming.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0131",
+    "topic": "Greedy Algorithms",
+    "difficulty": "Medium",
+    "title": "Assign Cookies",
+    "description": "Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child `i` has a greed factor `g[i]`, which is the minimum size of a cookie that the child will be content with; and each cookie `j` has a size `s[j]`. If `s[j] >= g[i]`, we can assign the cookie `j` to the child `i`, and the child `i` will be content. Your goal is to maximize the number of your content children and output the maximum number.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0132",
+    "topic": "Backtracking",
+    "difficulty": "Hard",
+    "title": "Word Search II",
+    "description": "Given a 2D board of characters and a list of words from a dictionary, find all words on the board. Each word must be constructed from letters of sequentially adjacent cells, where 'adjacent' cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word. An efficient solution may require using a Trie data structure.",
+    "constraints": "Time: 5s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0133",
+    "topic": "Sorting Algorithms",
+    "difficulty": "Easy",
+    "title": "Sort Array by Parity",
+    "description": "Given an array of non-negative integers `A`, return an array consisting of all the even elements of `A`, followed by all the odd elements of `A`. You may return any answer array that satisfies this condition.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0134",
+    "topic": "Searching Algorithms",
+    "difficulty": "Medium",
+    "title": "Search a 2D Matrix",
+    "description": "Write an efficient algorithm that searches for a value in an `m x n` matrix. This matrix has the following properties: integers in each row are sorted from left to right, and the first integer of each row is greater than the last integer of the previous row. Return `true` if the target is found, otherwise `false`.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0135",
+    "topic": "File Handling",
+    "difficulty": "Hard",
+    "title": "Merge Multiple CSV Files",
+    "description": "You are given a directory containing multiple CSV files. Each CSV has the same columns ('ID', 'Name', 'Score'). Write a Python script to merge all these CSV files into a single output CSV file. The script should handle potential errors like missing files or malformed rows. Additionally, ensure the final merged file does not contain duplicate rows based on the 'ID' column, keeping the first occurrence.",
+    "constraints": "Time: 5s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0136",
+    "topic": "OOP",
+    "difficulty": "Easy",
+    "title": "Bank Account Class",
+    "description": "Create a Python class `BankAccount` that simulates a simple bank account. It should have a constructor to set the initial balance. Implement methods for `deposit(amount)`, `withdraw(amount)`, and `get_balance()`. The withdraw method should not allow the balance to go below zero and should return `False` if the withdrawal is unsuccessful.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0137",
+    "topic": "Exception Handling",
+    "difficulty": "Medium",
+    "title": "Safe Dictionary Value Retrieval",
+    "description": "Write a function `get_nested_value(data, keys)` that safely retrieves a value from a nested dictionary. The `keys` argument is a list of keys to traverse. The function must use exception handling to gracefully manage `KeyError` if a key is not found at any level, and `TypeError` if an attempt is made to access a key on a non-dictionary value. It should return the value if found, otherwise `None`.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0138",
+    "topic": "Regular Expressions",
+    "difficulty": "Hard",
+    "title": "Parse and Validate Phone Numbers",
+    "description": "Write a Python function that takes a list of strings and uses regular expressions to find and validate US phone numbers. The function should be able to identify numbers in formats like `(123) 456-7890`, `123-456-7890`, and `123.456.7890`. It should return a new list containing only the valid phone numbers, standardized to the `(XXX) XXX-XXXX` format.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0139",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "title": "Valid Anagram",
+    "description": "Given two strings `s` and `t`, write a function to determine if `t` is an anagram of `s`. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.",
+    "constraints": "Time: 2s, Memory: 256MB",
+    "solvable": true
+  },
+  {
+    "qid": "Q0140",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "title": "Min Stack",
+    "description": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. Implement a `MinStack` class that has: `push(x)` -- Push element x onto stack. `pop()` -- Removes the element on top of the stack. `top()` -- Get the top element. `getMin()` -- Retrieve the minimum element in the stack. Each function should operate in $O(1)$ time.",
     "constraints": "Time: 2s, Memory: 256MB",
     "solvable": true
   }
